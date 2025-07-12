@@ -1,0 +1,30 @@
+{
+    "models": [
+        "llama3.2",
+        "granite3.3",
+        "granite-code:3b"
+    ],
+    "default_model": "llama3.2",
+    "model_config": {
+        "llama3.2": {
+            "max_tokens": 4096,
+            "temperature": 0.7,
+            "top_p": 0.9
+        },
+        "granite3.3": {
+            "max_tokens": 8192,
+            "temperature": 0.6,
+            "top_p": 0.95
+        },
+        "granite-code:3b": {
+            "max_tokens": 2048,
+            "temperature": 0.5,
+            "top_p": 0.85
+        }
+    },
+    "model_logos" : {
+        "llama3.2": "/images/logos/ollama-black.png",
+        "granite3.3": "/images/logos/ibm-white.png",
+        "granite-code:3b": "/images/logos/ibm-blue.png"
+    }
+}
